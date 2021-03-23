@@ -1,0 +1,41 @@
+<div class="mainContainer">
+    <h1 id="header">Enter Student Details</h1>
+    <% if(!data){%>
+        <form method="POST" action="/addData" class="studentForm">
+        <div class="form-group">
+            <label for="name" class="lbl">Name:</label>
+            <input type="text" placeholder="Enter Student Name" name="name" id="name"/>
+        </div>
+        <div class="form-group">
+            <label for="attendence" class="lbl">Attendence:</label>
+            <input type="text" placeholder="Enter Student Attendence" name="attendence" id="attendence"/>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn_submit" onclick="return studentData()">Submit</button>
+            <button type="reset" class="btn_cancel">Cancel</button>
+        </div>
+        <div class="err">
+            <p id="err"></p>
+        </div>
+    </form>    
+    <% }else {%>
+        <form method="POST" action="/addData/<%= data[0]._id%>" class="studentForm">
+            <div class="form-group">
+                <label for="name" class="lbl">Name:</label>
+                <input type="text" placeholder="Enter Student Name" name="name" id="name" value="<%= data[0].name %>"/>
+            </div>
+            <div class="form-group">
+                <label for="attendence" class="lbl">Attendence:</label>
+                <input type="text" placeholder="Enter Student Attendence" name="attendence" id="attendence" value="<%= data[0].attendence %>">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn_submit" onclick="return studentData()">Submit</button>
+                <button type="reset" class="btn_cancel">Cancel</button>
+            </div>
+            <div class="err">
+                <p id="err"></p>
+            </div>
+        </form>    
+    <% }%>
+</div>
+ 

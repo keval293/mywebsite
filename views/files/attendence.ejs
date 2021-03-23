@@ -1,0 +1,29 @@
+<div class="dataContainer">
+    <div class="myDiv">
+        <h1 id="text">Student Data</h1>
+        <button id="add" type="button" onclick="addStudentData()">Add Student</button>
+    </div>
+    <div class="table">
+    <table id="students">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Attendence</th>
+            <th>change</th>
+        </tr>
+        <% if(data) {%>
+            <% for(var i=0; i < data.length; i++) { %>
+            <tr>
+                <td><%= i+1%></td>
+                <td><%= data[i].name%></td>
+                <td><%= data[i].attendence%></td>
+                <td>
+                    <a class="update" href="/addStudentForm/<%= data[i]._id %>">Update</a>
+                    <a class="delete" href="/deleteData/<%= data[i]._id %>">Delete</a>
+                </td>
+            </tr>
+            <% } %>
+        <% } %>
+    </table>
+    </div>
+</div>

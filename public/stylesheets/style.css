@@ -1,0 +1,280 @@
+/* login css */
+
+.container {
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+input{
+    padding: 5px;
+    width: 60%;
+}
+.link{
+    margin: 10px;   
+}
+.color{
+    color: blue;
+}
+#submit {
+    background-color: lightskyblue;
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: none;
+}
+
+.login {
+    padding: 10px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.input {
+    padding: 7px;
+}
+
+label {
+    padding: 5px;
+}
+
+input {
+    margin: 10px;
+}
+
+
+/* index css */
+
+body {
+    margin: 0px;
+    font-family: 'Calibri';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header css */
+
+header {
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 15px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 3px;
+    color: white;
+}
+
+
+/* footer css */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* register css */
+
+.registration {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 90px 400px 90px 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-group {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.required{
+    display: inline-block;
+    width:22%;
+}
+
+#form {
+    padding: 12px;
+}
+.btn1{
+    padding:5px;
+    background-color: lightgreen;
+    margin-right: 20px;
+    border-radius: 3px;
+
+}
+.btn2{
+    padding:5px;
+    background-color: FireBrick;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/* profile page css */
+.profile{
+    margin:100px 200px 100px 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+.card{
+    margin-top: 20px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
+.section{
+    padding:20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left{
+    display: inline-block;
+    width: 20%;    
+    text-align: center;
+}
+.right{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+
+ /* attendence page css */
+ #students {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+#students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.update{
+    padding: 4px;
+    background-color: darkgreen;
+    color: white;
+    margin-right: 10px;
+}
+.delete{
+    padding: 4px;
+    background-color: red;
+    color: white;
+}
+  
+#students tr:nth-child(even){background-color: #f2f2f2;}
+  
+#students tr:hover {background-color: #ddd;}
+  
+#text{
+      margin-bottom: 25px;
+      text-align: center;
+}
+  
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dataContainer{
+    margin: 30px 20px 30px 20px;    
+}
+
+.myDiv{
+    display: block;
+}
+
+#add{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* addStudentForm */
+.mainContainer{
+    margin:100px 500px 100px 500px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    text-align: center;
+    display: block;
+}
+.lbl{
+    display: inline-flex;
+    width: 20%;
+}
+
+
+.btn_submit{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn_cancel{
+    padding: 5px;
+    background-color: FireBrick;
+}
+
+.button-group{
+    margin-bottom: 20px;
+}
+
+.studentForm{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+<div class="registration">
+    <h1>Registration</h1>
+    <form method="POST" name="form" action="/registerData" id="myForm" onsubmit="return validateData()">
+        <div class="main">
+            <div class="form-group">
+                <label for="name" class="required">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+                <label for="email" class="required">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password" class="required">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label for="c_password" class="required">Confirm Password:</label>
+                <input type="password" class="form-control" id="c_password" name="c_password" placeholder="Enter confirm password">
+            </div>
+            <div class="form-group">
+                <label for="address" class="required">Address:</label>
+                <input type="text" name="address" id="address" placeholder="Enter Address" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="qualification" class="required">Qualification:</label>
+                <input type="text" name="qualification" id="qualification" placeholder="Enter Qualification" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="department" class="required">Department:</label>
+                <input type="text" name="department" id="department" placeholder="Enter department" class="form-control" />
+            </div>
+            <div class="button">
+                <button type="submit" class="btn1">Register</button>
+                <button type="reset" class="btn2" >Cancel</button>
+            </div>
+            <div class="err">
+                <p id="error"></p>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include files/head %>
+</head>
+
+<body>
+    <header>
+        <% include files/header %>
+    </header>
+    <%- include('files/'+path) %>
+        <footer>
+            <% include files/footer %>
+        </footer>
+        <% if(js){%>
+            <script src="/javascripts/<%= js%>" type="text/javascript"></script>
+        <% }%>
+</body>
+
+</html>

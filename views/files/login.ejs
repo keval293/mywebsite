@@ -1,0 +1,24 @@
+<div class="container">
+    <form class="login" method="POST" action="/loginData" onsubmit="return validate()">
+        <div class="main">
+            <h3>Teacher Login</h3>
+        </div>
+        <div class="input">
+            <label for="username">username:</label>
+            <input name="username" type="text" id="username" placeholder="Enter your username">
+        </div>
+        <div class="input">
+            <label for="password">password:</label>
+            <input name="password" type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="submit">
+            <button type="submit" id="submit">Login</button>
+        </div>
+        <div class="err">
+            <p id="err"></p>
+        </div>
+        <div class="link">
+            <a class="color" href="/register">Don't have an account? Register</a>
+        </div>
+    </form>
+</div>
